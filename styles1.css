@@ -6,15 +6,17 @@
   box-sizing: border-box;
 }
 
-body {
+
+
+.bodi {
   font-family: "SF Pro Text";
   font-size: 20px;
   height: 10vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background: hsl(0, 0%, 8%);
-  background: hsl(249, 20%, 11%);
+  background: hsl(0, 2%, 50%);
 }
 
 button {
@@ -38,15 +40,15 @@ ul {
 
 .link {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   font-size: 18px;
   padding: 0.5rem;
   position: relative;
 }
 
 .logo {
-  width: 24px;
-  height: 24px;
+  width: 42px;
+  height: 25x;
 }
 
 .menu-icon {

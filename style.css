@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 
-body {
+bdo {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -170,3 +170,4 @@ body {
 .card:hover {
     width: 600px;
 }
+
