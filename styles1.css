@@ -100,6 +100,7 @@ ul {
   position: relative;
   display: inline-block;
   text-align: center;
+  aspect-ratio: 11/9;
 }
 
 
@@ -109,4 +110,10 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
+}
+
+.img{
+  width: 80%;
+  object-fit: cover;
+  aspect-ratio: 21/9;
 }
