@@ -16,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
   background: hsl(0, 0%, 8%);
-  background: hsl(0, 2%, 50%);
+  background: hsl(0, 0%, 0%);
 }
 
 button {
@@ -40,7 +40,7 @@ ul {
 
 .link {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   font-size: 18px;
   padding: 0.5rem;
   position: relative;
@@ -100,7 +100,7 @@ ul {
   position: relative;
   display: inline-block;
   text-align: center;
-  aspect-ratio: 11/9;
+
 }
 
 
@@ -110,10 +110,13 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
+  font-family:fantasy;
+  font-size: 80px;
 }
 
 .img{
-  width: 80%;
+  width: 100%;
   object-fit: cover;
   aspect-ratio: 21/9;
+  filter: grayscale(100%);
 }
