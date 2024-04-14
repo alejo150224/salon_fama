@@ -246,19 +246,19 @@ body {
 
 .gallery {
   display: flex;
-  width: 440px;
-  height: 200px;
+  width: 940px;
+  height: 400px;
 }
 
 .gallery img {
   min-width: 0;
-  flex: 1 1 10px;
+  flex: 1 1 20px;
   object-fit: cover;
   opacity: 0.5;
   transition: 0.5s;
 }
 
 .gallery img:hover {
-  flex: 1 1 280px;
+  flex: 1 1 680px;
   opacity: 1;
 }
