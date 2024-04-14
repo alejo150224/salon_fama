@@ -113,7 +113,7 @@ ul {
   font-family:fantasy;
   font-size: 90px;
   background-image: url(imagenes/gradientinicial.jpg);
-  filter: brightness(8000%);
+  filter: brightness(400%);
   background-repeat: no-repeat;
   background-position: center;
   color: transparent;
