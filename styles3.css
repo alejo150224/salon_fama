@@ -106,18 +106,18 @@ ul {
 
 .centrado{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 75%;
   transform: translate(-50%, -50%);
   color: #ffffff;
   font-family:fantasy;
-  font-size: 80px;
-  background-image: url(imagenes/thebest2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  font-size: 130px;
+  background-image: url(imagenes/gradientmessi.jpg);
+  filter: brightness(100%);
+  background-position: center  ;
   color: transparent;
   background-clip: text;
-  
+  -webkit-text-stroke: 0.8px #82bed4;
 }
 
 .img{
