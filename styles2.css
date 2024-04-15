@@ -401,74 +401,54 @@ footer {
 }
 
 /*--------*/
-*,
-*::before,
-*::after {
-  margin: 0;
+* {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
-
-
-
-.ul1 {
+.social-media-buttons{
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
   list-style: none;
-  gap: 2.5rem;
+  flex-direction: row;
 }
-
-.item a {
-  text-decoration: none;
-  width: 4.8rem;
-  height: 4.8rem;
-  background-color: #f0f9fe;
+.social-media-buttons a{
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
+  outline: 2px solid white;
+  cursor: pointer;
+  transition: all 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  z-index: 1;
-  border: 3px solid #f0f9fe;
-  overflow: hidden;
+  text-decoration: none;
 }
-
-.item a::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: var(--bg-color);
-  z-index: 0;
-  scale: 1 0;
-  transform-origin: bottom;
-  transition: scale 0.5s ease;
+.social-media-buttons a:hover{
+  outline-offset: 3px;
+  transition: all 0.3s;
 }
-
-.item:hover a::before {
-  scale: 1 1;
+.social-media-buttons a img{
+  transition: all 0.3s;
 }
-
-.icon {
-  font-size: 2rem;
-  color: hsl(203, 92%, 8%);
-  transition: 0.5s ease;
-  z-index: 2;
+.social-media-buttons a:hover img{
+  transform: scale(1.15);
 }
-
-.item a:hover .icon {
-  color: #fff;
-  transform: rotateY(360deg);
+.social-media-buttons li:nth-child(1) a:hover{
+  background: radial-gradient(
+    circle at 30% 107%, #fdf497 0%,
+    #fdf497 5%, #fd5949 45%,
+    #d6249f 60%, #285AEB 90%
+  );
 }
-
-.item:nth-child(1) {
-  --bg-color: linear-gradient(to bottom right, #f9ce34, #ee2a7b, #6228d7);
+.social-media-buttons li:nth-child(2) a:hover{
+  background-color: #1D9BF0;
 }
-.item:nth-child(2) {
-  --bg-color: #0077b5;
+.social-media-buttons li:nth-child(3) a:hover{
+  background-color: #e52d27;
 }
-.item:nth-child(3) {
-  --bg-color: #ff0000;
-}
-.item:nth-child(4) {
-  --bg-color: #000;
+.social-media-buttons li:nth-child(4) a:hover{
+  background-color: #0a66c2;
 }
