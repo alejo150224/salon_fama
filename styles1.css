@@ -274,16 +274,16 @@ body {
 
 
 .card {
-  width: 300px;
+  width: 350px;
   aspect-ratio: 1/1.3;
-  position: relative;
-  margin-right: 35px;
+  position: center;
+  margin-right: 45px;
 }
 
 .card .image-box {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: center;
 }
 
 .card .image-box img {
@@ -323,6 +323,7 @@ body {
 .text-box .sub {
   font-size: 14px;
   font-weight: 300;
+
 }
 .main span,
 .sub span {
@@ -332,14 +333,17 @@ body {
 .main span {
   transition-delay: 0.2s;
   transform: translateY(100%);
+  color: #ffffff;
 }
 .sub span {
   transform: translateY(-100%);
   transition-delay: 0.5s;
+  color: #ffffff;
 }
 
 .card:hover .text-box :is(span) {
   transform: translateY(0%);
+  color: #ffffff;
 }
 
 .text-box::after {
@@ -360,10 +364,13 @@ body {
 
 .contenedor1{
   display: flex;
-  width: 800PX;
+  width: 1000PX;
   height: auto;
 }
 
 .contenedor2{
   display: flex;
+  width: 1000PX;
+  height: auto;
+  margin-top: 35px;
 }
