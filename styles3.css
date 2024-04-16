@@ -451,3 +451,200 @@ footer {
 .social-media-buttons li:nth-child(4) a:hover{
   background-color: #0a66c2;
 }
+/*-------*/
+.centrado1{
+  position:absolute;
+  top: 376%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 60px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+  
+}
+.centrado2{
+  position:absolute;
+  top: 457%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
+.centrado2-1{
+  position:absolute;
+  top: 471%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
+.centrado2-2{
+  position:absolute;
+  top: 464%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
+.centrado3{
+  position:absolute;
+  top: 457%;
+  left: 37.5%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black; 
+}
+.centrado3-1{
+  position:absolute;
+  top: 464%;
+  left: 37.5%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black; 
+}
+.centrado3-2{
+  position:absolute;
+  top: 471%;
+  left: 37.5%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black; 
+}
+.centrado4{
+  position:absolute;
+  top: 457%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
+.centrado4-1{
+  position:absolute;
+  top: 464%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
+.centrado4-2{
+  position:absolute;
+  top: 471%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
+.centrado5{
+  position:absolute;
+  top: 457%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
+.centrado5-1{
+  position:absolute;
+  top: 464%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
+.centrado5-2{
+  position:absolute;
+  top: 471%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
