@@ -108,3 +108,32 @@ html {
     font-family:'Courier New', Courier, monospace;
     text-transform: uppercase;
   }
+  .container {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 520px;
+    height: 350px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
+    border-radius: 10px;
+  }
+  p {
+    font-size: 0.6em;
+    color: #BA7E7E;
+    letter-spacing: 1px;
+  }
+  h1 {
+    font-size: 1.2em;
+    color: #4E4E4E;
+    margin-top: -5px;
+  }
+  
+  h2 {
+    color: tan;
+    margin-top: -5px;
+  }
+  .img1 {
+    width: 290px;
+    margin-top: 47px;
+  }
