@@ -126,6 +126,12 @@ ul {
   aspect-ratio: 21/9;
   filter: grayscale(100%);
 }
+p{
+  text-align: justify;
+  font-family:'Courier New', Courier, monospace;
+  font-size: medium;
+  margin: 3%;
+}
 
 *,
 *::before,
