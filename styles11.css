@@ -94,3 +94,17 @@ ul {
 .logo:hover {
   opacity: 0.5;
 }
+
+/*--------------------------------------------*/
+
+html {
+    display: grid;
+    min-height: 100%;
+  }
+
+.bodi9 {
+    display: flex;
+    background: #E0C9CB;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+  }
