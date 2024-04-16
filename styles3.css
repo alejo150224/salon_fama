@@ -301,7 +301,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #191c29;
+  background: #ffffff;
 }
 
 .card1 {
@@ -465,7 +465,7 @@ footer {
 /*-------*/
 .centrado1{
   position:absolute;
-  top: 376%;
+  top: 331%;
   left: 35%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -481,7 +481,7 @@ footer {
 }
 .centrado2{
   position:absolute;
-  top: 457%;
+  top: 413%;
   left: 13%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -496,7 +496,7 @@ footer {
 }
 .centrado2-1{
   position:absolute;
-  top: 471%;
+  top: 427%;
   left: 13%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -511,7 +511,7 @@ footer {
 }
 .centrado2-2{
   position:absolute;
-  top: 464%;
+  top: 420%;
   left: 13%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -526,7 +526,7 @@ footer {
 }
 .centrado3{
   position:absolute;
-  top: 457%;
+  top: 413%;
   left: 37.5%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -541,7 +541,7 @@ footer {
 }
 .centrado3-1{
   position:absolute;
-  top: 464%;
+  top: 420%;
   left: 37.5%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -556,7 +556,7 @@ footer {
 }
 .centrado3-2{
   position:absolute;
-  top: 471%;
+  top: 427%;
   left: 37.5%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -571,7 +571,7 @@ footer {
 }
 .centrado4{
   position:absolute;
-  top: 457%;
+  top: 413%;
   left: 62%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -586,7 +586,7 @@ footer {
 }
 .centrado4-1{
   position:absolute;
-  top: 464%;
+  top: 420%;
   left: 62%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -601,7 +601,7 @@ footer {
 }
 .centrado4-2{
   position:absolute;
-  top: 471%;
+  top: 427%;
   left: 62%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -616,7 +616,7 @@ footer {
 }
 .centrado5{
   position:absolute;
-  top: 457%;
+  top: 413%;
   left: 87%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -631,7 +631,7 @@ footer {
 }
 .centrado5-1{
   position:absolute;
-  top: 464%;
+  top: 420%;
   left: 87%;
   transform: translate(-50%, -50%);
   color: #ffffff;
@@ -646,7 +646,7 @@ footer {
 }
 .centrado5-2{
   position:absolute;
-  top: 471%;
+  top: 427%;
   left: 87%;
   transform: translate(-50%, -50%);
   color: #ffffff;
