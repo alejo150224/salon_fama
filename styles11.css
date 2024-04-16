@@ -23,8 +23,8 @@
 }
 
 nav {
-  width: 100%;
-  max-width: 1265px;
+  width: 108.4%;
+  max-width: 1365px;
   display: flex;
   justify-content:space-between;
   align-items: center;
@@ -98,13 +98,13 @@ ul {
 /*--------------------------------------------*/
 
 html {
-    display: grid;
+    display: flex;
     min-height: 100%;
   }
 
 .bodi9 {
     display: flex;
-    background: #901c26;
+    background: #ffffff;
     font-family:'Courier New', Courier, monospace;
     text-transform: uppercase;
     
@@ -115,24 +115,109 @@ html {
     overflow: hidden;
     width: 520px;
     height: 380px;
-    background: white;
+    background: #e6cbcb;
     box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
     border-radius: 10px;
+    margin-left: 40px;
+  }
+  .container1 {
+    position: relative;
+    margin: auto;
+    overflow:hidden;
+    width: 520px;
+    height: 380px;
+    background: #e6cbcb;
+    box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
+    border-radius: 10px;
+    margin-left: 580px;
+    margin-top: -380px;
+  }
+  .container2 {
+    position: relative;
+    margin: auto;
+    overflow:hidden;
+    width: 520px;
+    height: 380px;
+    background: #e6cbcb;
+    box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .container3 {
+    position: relative;
+    margin: auto;
+    overflow:hidden;
+    width: 520px;
+    height: 380px;
+    background: #e6cbcb;
+    box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
+    border-radius: 10px;
+    margin-left: 580px;
+    margin-top: -380px;
+  }
+  .container4 {
+    position: relative;
+    margin: auto;
+    overflow:hidden;
+    width: 520px;
+    height: 380px;
+    background: #e6cbcb;
+    box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
+    border-radius: 10px;
+    margin-left: 580px;
+    margin-top: 10px;
+  }
+  .container5 {
+    position: relative;
+    margin: auto;
+    overflow:hidden;
+    width: 520px;
+    height: 380px;
+    background: #e6cbcb;
+    box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: -380px;
+  }
+  .container6 {
+    position: relative;
+    margin: auto;
+    overflow:hidden;
+    width: 520px;
+    height: 380px;
+    background: #e6cbcb;
+    box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .container7 {
+    position: relative;
+    margin: auto;
+    overflow:hidden;
+    width: 520px;
+    height: 380px;
+    background: #e6cbcb;
+    box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
+    border-radius: 10px;
+    margin-left: 580px;
+    margin-top:-380px;
   }
   p {
     font-size: 0.6em;
-    color: #BA7E7E;
+    color: #d71b1b;
     letter-spacing: 1px;
   }
   h1 {
     font-size: 1.2em;
     color: #4E4E4E;
-    margin-top: -5px;
+    margin-top: -29px;
   }
   
   h2 {
-    color: tan;
-    margin-top: -5px;
+    color: rgb(0, 0, 0);
+    margin-top: 6px;
   }
   .img {
     width: 220px;
@@ -206,15 +291,17 @@ html {
   
   .add {
     width: 67%;
+    color: #4E4E4E;
   }
   
   .like {
     width: 22%;
+    color: #4E4E4E;
   }
   
   .sizes {
     display: grid;
-    color: pink;
+    color: rgb(43, 42, 42);
     grid-template-columns: repeat(auto-fill, 30px);
     width: 60%;
     grid-gap: 4px;
@@ -229,19 +316,20 @@ html {
     margin-top: 11px;
     margin-bottom:0;
     margin-left: 20px;
+    color: #4E4E4E;
     
   }
   
   .size {
     padding: 9px;
-    border: 1px solid #E0C9CB;
+    border: 1px solid #e45a66;
     font-size: 0.7em;
     text-align: center;
     
   }
   .size:hover{
       background:#ffffff;
-      color: white;
+      color: #e45a66;
       transition: all .4s ease-in-out;
   }
   
@@ -268,3 +356,17 @@ html {
       }
     }
   }
+
+  .content1{
+    display: flex;
+  width: 1000PX;
+  height: auto;
+  }
+  .content2{
+    display: flex;
+  width: 1000PX;
+  height: auto;
+  margin-top: 35px;
+  margin-left: 50px;
+  }
+  
