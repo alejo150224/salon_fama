@@ -380,3 +380,19 @@ body {
   height: auto;
   margin-top: 35px;
 }
+.centrado6{
+  position:absolute;
+  top: 304%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 60px;
+  background-image: url(imagenes/thebest2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: 0px black;
+  
+}
