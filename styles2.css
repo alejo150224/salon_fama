@@ -107,11 +107,11 @@ ul {
 .centrado{
   position:absolute;
   top: 34%;
-  left: 20%;
+  left: 22%;
   transform: translate(-50%, -50%);
   color: #ffffff;
   font-family:fantasy;
-  font-size: 112px;
+  font-size: 108px;
   background-image: url(imagenes/gradiente2.jpg);   
   filter: brightness(82%);
   background-position: center;
@@ -126,6 +126,13 @@ ul {
   object-fit: cover;
   aspect-ratio: 21/9;
   filter: grayscale(100%);
+}
+
+p{
+  text-align: justify;
+  font-family: fantasy;
+  font-size: medium;
+  margin: 9%;
 }
 
 *,
@@ -461,7 +468,7 @@ footer {
   color: #ffffff;
   font-family:fantasy;
   font-size: 60px;
-  background-image: url(imagenes/thebest2.jpg);   
+  background-image: url(imagenes/gradient2.jpg);   
   filter: brightness(82%);
   background-position: center;
   color: transparent;
@@ -472,64 +479,181 @@ footer {
 .centrado2{
   position:absolute;
   top: 303%;
-  left: 15%;
+  left: 13%;
   transform: translate(-50%, -50%);
   color: #ffffff;
   font-family:fantasy;
-  font-size: 20px;
-  background-image: url(imagenes/thebest2.jpg);   
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
   filter: brightness(82%);
   background-position: center;
   color: transparent;
   background-clip: text;
   -webkit-text-stroke: px black;
-  
+}
+.centrado2-1{
+  position:absolute;
+  top: 315%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
+.centrado2-2{
+  position:absolute;
+  top: 309%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
 }
 .centrado3{
   position:absolute;
-  top: 222%;
-  left: 35%;
+  top: 303%;
+  left: 37.5%;
   transform: translate(-50%, -50%);
   color: #ffffff;
   font-family:fantasy;
-  font-size: 60px;
-  background-image: url(imagenes/thebest2.jpg);   
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
   filter: brightness(82%);
   background-position: center;
   color: transparent;
   background-clip: text;
-  -webkit-text-stroke: px black;
-  
+  -webkit-text-stroke: px black; 
+}
+.centrado3-1{
+  position:absolute;
+  top: 309%;
+  left: 37.5%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black; 
+}
+.centrado3-2{
+  position:absolute;
+  top: 315%;
+  left: 37.5%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black; 
 }
 .centrado4{
   position:absolute;
-  top: 222%;
-  left: 35%;
+  top: 303%;
+  left: 62%;
   transform: translate(-50%, -50%);
   color: #ffffff;
   font-family:fantasy;
-  font-size: 60px;
-  background-image: url(imagenes/thebest2.jpg);   
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
   filter: brightness(82%);
   background-position: center;
   color: transparent;
   background-clip: text;
   -webkit-text-stroke: px black;
-  
+}
+.centrado4-1{
+  position:absolute;
+  top: 309%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
+.centrado4-2{
+  position:absolute;
+  top: 315%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
 }
 .centrado5{
   position:absolute;
-  top: 222%;
-  left: 35%;
+  top: 303%;
+  left: 87%;
   transform: translate(-50%, -50%);
   color: #ffffff;
   font-family:fantasy;
-  font-size: 60px;
-  background-image: url(imagenes/thebest2.jpg);   
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
   filter: brightness(82%);
   background-position: center;
   color: transparent;
   background-clip: text;
   -webkit-text-stroke: px black;
-  
 }
+.centrado5-1{
+  position:absolute;
+  top: 309%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
+.centrado5-2{
+  position:absolute;
+  top: 315%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family:fantasy;
+  font-size: 36px;
+  background-image: url(imagenes/gradient2.jpg);   
+  filter: brightness(82%);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-text-stroke: px black;
+}
+
