@@ -224,6 +224,11 @@ html {
     margin-top: 7px;
     margin-left: 50px;
   }
+  .img1 {
+    width: 220px;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
   .slideshow-buttons {
     top: 70%;
     display: none;
