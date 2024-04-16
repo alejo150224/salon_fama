@@ -121,7 +121,7 @@ ul {
 }
 
 .img{
-  width: 100%;
+  width: 105%;
   object-fit: cover;
   aspect-ratio: 21/9;
   filter: grayscale(100%);
