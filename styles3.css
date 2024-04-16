@@ -399,6 +399,11 @@ footer {
   display: flex;
 }
 
+/*---------*/
+.h2-1{
+  font-family:'Courier New', Courier, monospace;
+  margin: 3%;
+}
 /*--------*/
 * {
   padding: 0;
