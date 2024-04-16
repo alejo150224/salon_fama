@@ -375,3 +375,9 @@ html {
   margin-left: 50px;
   }
   
+  .title1{
+    font-family:fantasy;
+    font-size: 45px;
+    margin: 3%;
+    color: #000000;
+  }
