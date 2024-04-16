@@ -104,16 +104,17 @@ html {
 
 .bodi9 {
     display: flex;
-    background: #E0C9CB;
+    background: #901c26;
     font-family:'Courier New', Courier, monospace;
     text-transform: uppercase;
+    
   }
   .container {
     position: relative;
     margin: auto;
     overflow: hidden;
     width: 520px;
-    height: 350px;
+    height: 380px;
     background: white;
     box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
     border-radius: 10px;
@@ -133,7 +134,137 @@ html {
     color: tan;
     margin-top: -5px;
   }
-  .img1 {
-    width: 290px;
-    margin-top: 47px;
+  .img {
+    width: 220px;
+    margin-top: 7px;
+    margin-left: 50px;
+  }
+  .slideshow-buttons {
+    top: 70%;
+    display: none;
+  }
+  
+  .one, .two, .three, .four {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #E0C9CB;
+  }
+  
+  .one {
+    left: 22%;
+  }
+  .two {
+    left: 27%;
+  }
+  .three {
+    left: 32%;
+  }
+  .four {
+    left: 37%;
+  }
+  
+  .product {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    top: 10%;
+    left: 60%;
+    
+  }
+  
+  .desc {
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 17px;
+    color: #4E4E4E;
+    font-size: .7em;
+    line-height: 1.6em;
+    margin-right: 25px;
+    text-align: justify;
+    
+  }
+  
+  button {
+    background: darken(#E0C9CB, 10%);
+    padding: 10px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: -1px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover{
+      background: #BA7E7E;
+      transition: all .4s ease-in-out;
+  }
+  
+  .add {
+    width: 67%;
+  }
+  
+  .like {
+    width: 22%;
+  }
+  
+  .sizes {
+    display: grid;
+    color: pink;
+    grid-template-columns: repeat(auto-fill, 30px);
+    width: 60%;
+    grid-gap: 4px;
+    margin-left: 20px;
+    margin-top: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  
+  .pick {
+    margin-top: 11px;
+    margin-bottom:0;
+    margin-left: 20px;
+    
+  }
+  
+  .size {
+    padding: 9px;
+    border: 1px solid #E0C9CB;
+    font-size: 0.7em;
+    text-align: center;
+    
+  }
+  .size:hover{
+      background:#ffffff;
+      color: white;
+      transition: all .4s ease-in-out;
+  }
+  
+  .focus{
+    background: #BA7E7E;
+    color: white;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding: 10px;
+    p {
+      letter-spacing: 3px;
+    }
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      &:hover {
+        color: #7d7d7d;
+      }
+    }
   }
